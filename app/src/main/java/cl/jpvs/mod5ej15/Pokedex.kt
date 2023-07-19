@@ -1,8 +1,8 @@
-package com.example.kotlinexamples
+package cl.jpvs.mod5ej15
 
 class Pokedex {
     companion object {
-        fun getPokedex(): List<coPokemon> {
+        fun getPokedex(): List<Pokemon> {
             val pokedex = mutableListOf<Pokemon>()
             pokedex.add(Pokemon("Bulbasaur", "Grass - Poison"))
             pokedex.add(Pokemon("Ivysaur", "Grass - Poison"))

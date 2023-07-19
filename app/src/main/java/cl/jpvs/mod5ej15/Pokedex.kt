@@ -2,7 +2,7 @@ package com.example.kotlinexamples
 
 class Pokedex {
     companion object {
-        fun getPokedex(): List<Pokemon> {
+        fun getPokedex(): List<coPokemon> {
             val pokedex = mutableListOf<Pokemon>()
             pokedex.add(Pokemon("Bulbasaur", "Grass - Poison"))
             pokedex.add(Pokemon("Ivysaur", "Grass - Poison"))
